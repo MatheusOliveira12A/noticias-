@@ -57,7 +57,12 @@ body.menu-open::before {
     flex-direction: column;
     padding: 1.5rem;
     gap: 1.5rem;
-    display: none;
+
+    transition: 0.7s;
+}
+
+.header-mobile nav.abrir {
+    right: 0;
 }
 
 .header-mobile nac a {
